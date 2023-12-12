@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright © [2023] by [Nurul Qistina Binti Osman Talib]. All rights reserved.
+  ~
+  ~ This work is for course ICT602 , Sir Hafiz .
+  ~ This work, including all text, images, and other content, is a proprietary of me .
+  ~ Any unauthorized use, reproduction, or distribution is strictly prohibited.
+  ~
+  ~
+  ~
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.4"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-146dp" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/about_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_marginBottom="672dp"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/me"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="100dp"
+        android:scaleType="centerCrop"
+        app:shapeAppearanceOverlay="@style/CircularShape"
+        app:srcCompat="@drawable/me"
+        app:strokeColor="?attr/colorPrimary"
+        app:strokeWidth="5dp" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="325dp"
+        android:layout_marginEnd="40dp"
+        android:text="Name : Nurul Qistina BInti Osman Talib"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="385dp"
+        android:layout_marginEnd="40dp"
+        android:textColor="@color/black"
+        android:text="Group : RCS2405B"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/metric"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="425dp"
+        android:layout_marginEnd="40dp"
+        android:textColor="@color/black"
+        android:text="Student Number : 2021816376"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/course"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="455dp"
+        android:layout_marginEnd="40dp"
+        android:textColor="@color/black"
+        android:text="Programme Code : CS240"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="490dp"
+        android:layout_marginEnd="40dp"
+        android:textColor="@color/black"
+        android:text=" its a bit struggle to make this application but i still enjoy doing it and learn many new thing  "
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

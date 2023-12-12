@@ -1,0 +1,21 @@
+<!--
+  ~ Copyright © [2023] by [Nurul Qistina Binti Osman Talib]. All rights reserved.
+  ~
+  ~ This work is for course ICT602 , Sir Hafiz .
+  ~ This work, including all text, images, and other content, is a proprietary of me .
+  ~ Any unauthorized use, reproduction, or distribution is strictly prohibited.
+  ~
+  ~
+  ~
+  -->
+
+<resources>
+    <string name="app_name">Zakat Calculator</string>
+
+    <string-array name="spinner_options">
+        <item>Keep</item>
+        <item>Wear</item>
+    </string-array>
+
+
+</resources>

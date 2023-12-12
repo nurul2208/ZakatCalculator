@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright © [2023] by [Nurul Qistina Binti Osman Talib]. All rights reserved.
+  ~
+  ~ This work is for course ICT602 , Sir Hafiz .
+  ~ This work, including all text, images, and other content, is a proprietary of me .
+  ~ Any unauthorized use, reproduction, or distribution is strictly prohibited.
+  ~
+  ~
+  ~
+  -->
+
+<resources>
+    <style name="AppTheme.PopupOverlay" parent="Base.Theme.AppCompat.Light" />
+    <style name="CircularShape">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>

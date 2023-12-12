@@ -1,0 +1,21 @@
+<!--
+  ~ Copyright © [2023] by [Nurul Qistina Binti Osman Talib]. All rights reserved.
+  ~
+  ~ This work is for course ICT602 , Sir Hafiz .
+  ~ This work, including all text, images, and other content, is a proprietary of me .
+  ~ Any unauthorized use, reproduction, or distribution is strictly prohibited.
+  ~
+  ~
+  ~
+  -->
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ZakatCalculator" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/my_light_primary</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+    <style name="Theme.ZakatCalculator" parent="Base.Theme.ZakatCalculator" />
+</resources>
