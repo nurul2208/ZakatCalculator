@@ -9,6 +9,7 @@ Cheers 💕😄 ,
 Nurul
 
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
 Youtube: https://www.youtube.com/watch?v=Wd5Fpu-uvpU&t=490s
 
 1.Develop mobile application for estimating zakat payment for gold keeping. 
